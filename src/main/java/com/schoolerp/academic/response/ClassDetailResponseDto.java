@@ -10,12 +10,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class ClassDetailResponseDto {
-    private Long id;
-    private Integer className;
-    private String sectionName;
-    private String classCode;
-    private Integer maxStudent;
-    private Integer classTeacher;
-    private Boolean status;
+  private Long id;
+  private Integer className;
+  private String sectionName;
+  private String classCode;
+  private Integer maxStudent;
+  private Integer classTeacher;
+  private Boolean status;
 }
-
