@@ -8,8 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
 public class AcademicApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AcademicApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(AcademicApplication.class, args);
+  }
 }
